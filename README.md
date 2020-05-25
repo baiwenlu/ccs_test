@@ -68,3 +68,6 @@ It depends on golang version 1.14
 	PASS
 	coverage: 45.8% of statements
 	ok      main/src        0.885s
+
+## License
+For any questions regarding the license please send [e-mail](mailto:baiwenlu2003@163.com).
