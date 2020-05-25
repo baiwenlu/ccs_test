@@ -13,14 +13,23 @@ Of course, we can also pass the corresponding shelf through the interface.
 ├── README.md
 
 ├── bin
+
 │   └── ccs
+
 ├── data
+
 │   ├── orders.json
+
 │   └── orders_test.json
+
 ├── docker-compose.yml
+
 ├── go.mod
+
 └── src
+
     ├── conf.go
+    
     ├── courier.go
     ├── main.go
     ├── orders.go
