@@ -43,18 +43,21 @@ Of course, we can also pass the corresponding shelf through the interface.
 # How to run
 
 It depends on golang version 1.14
-tar -xzvf  **.tar.gz
-cd ccs
+
+	tar -xzvf  **.tar.gz
+	cd ccs
 
 ## Three ways to run it:
 1. docker run
-docker build -t ccs:test .
-docker run -it --rm -v `pwd`/data:/data  ccs:test
+
+	docker build -t ccs:test .
+	docker run -it --rm -v `pwd`/data:/data  ccs:test
 
 2. Run binary file
-cd bin
-./ccs
+
+	cd bin
+	./ccs
 
 3. go run:(but it depends on golang version 1.14)
-cd src
-go run main.go conf.go courier.go orders.go shelf.go
+	cd src
+	go run main.go conf.go courier.go orders.go shelf.go
