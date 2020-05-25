@@ -1,0 +1,6 @@
+.svn/*
+*.swp
+*.swn
+*.swo
+*.tmp
+.vscode
