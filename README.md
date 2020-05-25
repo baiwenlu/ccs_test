@@ -6,9 +6,27 @@ The shelves are used to store the finished orders.
 Since it is public to all other roles, it is used as a global variable for convenience.
 Of course, we can also pass the corresponding shelf through the interface.
 
+#Directory Structure
 
+├── Dockerfile
+├── README.md
+├── bin
+│   └── ccs
+├── data
+│   ├── orders.json
+│   └── orders_test.json
+├── docker-compose.yml
+├── go.mod
+└── src
+    ├── conf.go
+    ├── courier.go
+    ├── main.go
+    ├── orders.go
+    ├── orders_test.go
+    ├── shelf.go
+    └── shelf_test.go
 
-It depends on golang version 1.14
+#Configuration options
 
 const (
 	CreateOrderRate                = 2                     //order's created count per second
@@ -22,6 +40,13 @@ const (
 	OrderFile                      = "../data/orders.json" // source orders's data file
 )
 
+#How to run
+
+It depends on golang version 1.14
+tar -xzvf  **.tar.gz
+cd ccs
+
+Three ways to run it:
 1.
 docker build -t ccs:test .
 docker run -it --rm -v `pwd`/data:/data  ccs:test
