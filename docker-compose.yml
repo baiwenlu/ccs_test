@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ccs:
+    build: .
+    volumes:
+      - /Users/baiwenlu/go/src/ccs/data/:/data/
+    network_mode: bridge
