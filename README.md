@@ -37,7 +37,7 @@ Of course, we can also pass the corresponding shelf through the interface.
 		AnyTemperatureDecayModifier    = 2                     // overflow shelf's decay rate
 		CourierMaxTime                 = 6                     // courier‘s max seconds spend on the road
 		CourierMinTime                 = 2                     //courier‘s min seconds spend on the road
-		**OrderFile                      = "../data/orders.json" // source orders's data file**
+		**OrderFile**                      = "../data/orders.json" // source orders's data file
 	)
 
 # How to run
