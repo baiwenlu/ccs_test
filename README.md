@@ -66,5 +66,5 @@ It depends on golang version 1.14
 	go test -v -cover
 	
 	PASS
-	coverage: 44.0% of statements
-	ok  	main/src	1.505s
+	coverage: 45.8% of statements
+	ok      main/src        0.885s
