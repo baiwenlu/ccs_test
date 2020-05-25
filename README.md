@@ -70,4 +70,4 @@ It depends on golang version 1.14
 	ok      main/src        0.885s
 
 ## License
-For any questions regarding the license please send [e-mail](mailto:baiwenlu2003@163.com).
+For any questions regarding the license please send [e-mail:baiwenlu2003@163.com](mailto:baiwenlu2003@163.com).
