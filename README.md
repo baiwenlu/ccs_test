@@ -60,3 +60,11 @@ It depends on golang version 1.14
 ### 3. go run:(but it depends on golang version 1.14)
 	cd src	
 	go run main.go conf.go courier.go orders.go shelf.go
+	
+## unit test
+	cd src
+	go test -v -cover
+	
+	PASS
+	coverage: 44.0% of statements
+	ok  	main/src	1.505s
