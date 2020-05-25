@@ -8,34 +8,23 @@ Of course, we can also pass the corresponding shelf through the interface.
 
 # Directory Structure
 
-├── Dockerfile
-
-├── README.md
-
-├── bin
-
-│   └── ccs
-
-├── data
-
-│   ├── orders.json
-
-│   └── orders_test.json
-
-├── docker-compose.yml
-
-├── go.mod
-
-└── src
-
-    ├── conf.go
-    
-    ├── courier.go
-    ├── main.go
-    ├── orders.go
-    ├── orders_test.go
-    ├── shelf.go
-    └── shelf_test.go
+	├── Dockerfile
+	├── README.md
+	├── bin
+	│   └── ccs
+	├── data
+	│   ├── orders.json
+	│   └── orders_test.json
+	├── docker-compose.yml
+	├── go.mod
+	└── src
+	    ├── conf.go    
+	    ├── courier.go
+	    ├── main.go
+	    ├── orders.go
+	    ├── orders_test.go
+	    ├── shelf.go
+	    └── shelf_test.go
 
 # Configuration options
 
