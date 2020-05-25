@@ -48,18 +48,15 @@ It depends on golang version 1.14
 	cd ccs
 
 ## Three ways to run it:
-1. docker run
+### 1. docker run
 	docker build -t ccs:test .
-	
 	docker run -it --rm -v `pwd`/data:/data  ccs:test
 
-2. Run binary file
+### 2. Run binary file
 
 	cd bin
-	
 	./ccs
 
-3. go run:(but it depends on golang version 1.14)
-	cd src
-	
+### 3. go run:(but it depends on golang version 1.14)
+	cd src	
 	go run main.go conf.go courier.go orders.go shelf.go
